@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "STIX Two Text", serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+}
+
+.logo-gow{
+    height: 50px;
+}
+
+.navigation li {
+    display: inline;
+    padding-right: 60px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    box-shadow: 0 1.5px 0 rgb(255, 255, 255); 
+}
+
+header {
+    height: 100vh;
+    background-image: url(image/kratossittingthrone.png);
+    background-size: cover;
+    background-position: top right;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro  {
+    width: 35%;
+    
+}
+
+.intro-flex {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro {
+    font-size: 24px;
+}
+
+.intro h1 {
+    color: #AAA36D;
+}
+
+.intro p {
+    color: #E5E0CA;
+    padding-bottom: 30px;
+}
+
+
+
+.intro a {
+    border-radius: 2px;
+    padding: 15px 40px;
+    border:  1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro a:hover {
+    background-color: rgb(22, 21, 21);
+}
+
+.godof-logo {
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-bottom: 250px;
+
+}
+
+.container div {
+    width: 33%;
+}
+
+.container img {
+    width: 95%;
+}
+
+.container h2 {
+    color: #AAA36D;
+}
+
+.container p {
+    color: #E5E0CA;
+}
+
+.exp  {
+    height: 100vh;
+    background-image: url(image/téléchargé\ \(44\).png);
+    background-size: cover;
+}
+
+.exp-krachten {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-krachten div {
+    width: 48%;
+}
+
+.exp-krachten img {
+    width: 40%;
+}
+
+
+
+
