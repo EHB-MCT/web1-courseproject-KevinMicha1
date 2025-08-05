@@ -66,6 +66,41 @@ header {
   width: 284px
 }
 
+.container {
+    color: #A8A48B;
+    background-color: black;
+    padding: 60px 40px 40px 40px;
+    text-align: center;
+}
+
+.container h1 {
+    color: #570402;;
+}
+
+.Button {
+    background-color: #160404;
+    color: #570402;
+    border: 1px solid #68110F;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Button:hover {
+    background: linear-gradient(180deg, black 60%, #6E2424 85%, #F88E8E 100%);
+    color: #EB2621;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .kratos-sitting {
+    margin-top: 40px;
+}
+
+
 
 
 
