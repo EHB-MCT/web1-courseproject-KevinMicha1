@@ -69,8 +69,17 @@ header {
 .container {
     color: #A8A48B;
     background-color: black;
-    padding: 60px 40px 40px 40px;
+    padding: 40px 50px 40px 50px;
     text-align: center;
+}
+
+.container h1 {
+    font-size: 24px;
+ margin: 0;
+}
+.container p {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .container h1 {
@@ -99,6 +108,54 @@ header {
 .container .kratos-sitting {
     margin-top: 40px;
 }
+
+
+.vaardigheden {
+    background-color:#220300 ;
+    padding: 40px 50px 40px 50px;
+    text-align: center;
+}
+
+.container-var {
+    display: flex;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    background-color: #160404;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container-var h3, p {
+    color: white;
+}
+
+.container-var img {
+    width: 140px;
+}
+
+.container-var h3 {
+    border-bottom: 3px solid #A8A48B;
+    margin-top: 10px;
+    padding-bottom: 8px; /* espace entre le texte et la bordure */
+}
+
+.block-tekst {
+    width: 100%;
+}
+
+.container-var 1 {
+    margin-bottom: 20px;
+}
+
+.out-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px; /* espace entre les blocs */
+}
+
 
 
 
