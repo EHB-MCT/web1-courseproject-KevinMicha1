@@ -3,91 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>kratos</title>
 </head>
 <body>
-    <div class="navigation">
-        <img src="image/godofwar-logo.png" alt="" class="logo-gow">
-        <nav>
-            <ul>
-                <li><a href="#"> STARTPAGINA</a></li>
-                <li><a href="#">VAARDIGHEDEN</a></li>
-                <li><a href="#">ERVARINGEN</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>    
-    </div>
     <header>
-        <div class="wrapper">
-            <div class="intro-flex">
-            <div class="intro">
-                <img src="image/godof-logo.png" class=" godof-logo" alt="">
-                <h1>KRATOS, GEEST VAN SPART</h4>
-                <p>Van het oude Griekenland tot de Noorse rijken, Kratos is een levende legende. Ooit was hij de god van de oorlog, maar hij betaalde een hoge prijs in zijn zoektocht naar verlossing. Samen met zijn zoon Atreus trotseert hij de uitdagingen van goddelijke rijken terwijl hij zijn innerlijke demonen bestrijdt.</p>
-                <a href="#" class="button">LEES MEER</a>
+   <div class="topnav">
+  <img src="image/kratos-logo-mobile.png" alt="" class="class-logo">
+  <div id="myLinks">
+    <a href="#news">Ervaringen</a>
+    <a href="#contact">Vaardigheden</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</header>
+<nav>
+    <div class="container">
+        <img src="image/GOW-LOGO.png" alt="" class="gow-logo">
+        <h3>KRATOS DE GEEST VAN SPART</h3>
+        <h1>Van het oude Griekenland tot de Noorse rijken: Kratos is een levende legende. Ooit god van de oorlog, nu op zoek naar verlossing. Samen met zijn zoon Atreus trotseert hij goddelijke werelden en zijn eigen demonen</h1>
+    </div>
+</nav>
 
-            </div>
-            </div>
-            <div class="container">
-                <div class="kratos-exp">
-                    <img src="image/agonspartan.png" class="kratos-photo" alt="">
-                    <h2>Strategisch leiderschap</h3>
-                    <p>Als Spartaanse generaal leidde Kratos zijn troepen met ongeëvenaarde kracht en strategie. Zijn pact met de goden <br> gaf hem bovennatuurlijke capaciteiten, waarmee hij titanen <br>en goden versloeg. Dit bewees zijn veerkracht en <br> vastberadenheid in een chaotische wereld.</p>
-                </div>
-                <div class="kratos-exp">
-                    <img src="image/kratosatreus.png" class="kratos-photo" alt="">
-                    <h2>Adaptiviteit </h3>
-                    <p>In een nieuw rijk bewees Kratos zijn aanpassingsvermogen en leiderschap. Samen met zijn zoon Atreus overwon hij mythische wezens en machtige vijanden zoals Baldur. Zijn focus op samenwerking en mentorschap toont zijn kracht in moeilijke omstandigheden.</p>
-                </div>
-                <div class="kratos-exp">
-                    <img src="image/_God of War_ Ragnarok (Video Game)_ - Kratos (Christopher Judge).png" class="kratos-photo" alt="">
-                    <h2>kernwaarden</h3>
-                    <p>Kratos combineert fysieke kracht met mentale veerkracht en leiderschap. Zijn toewijding en prestaties onder druk maken hem een onmisbare bondgenoot.
-                    </p>
-                </div>
-            </div>
-            <div class="exp">
-                    <div class="exp-krachten">
-                        <div class="img-symbols">
-                            <img src="image/ARIES.png" alt="">
-                            <h1>Fysieke Vaardigheden                            </h1>
-                        </div>
-                        <div class="experience">
-                            <h3>Bovennatuurlijke Kracht</h3>
-                            <p>Kratos kan enorme rotsen optillen, gigantische wezens bevechten en dodelijke verwondingen overleven.</p>
-                            <h3>Strategisch Gevecht</h3>
-                            <p>Een meester in hand-to-hand gevechten, Kratos exploiteert de zwakheden van zijn vijanden en past zijn tactieken aan.
-                            </p>
-                        </div>
-                        <div class="img-symbols">
-                            <img src="image/Sagittaire (astrologie) — Wikipédia.png" alt="">
-                            <h1>Persoonlijke Kwaliteiten
-                            </h1>
-                        </div>
-                        <div class="experience">
-                            <h3>Mentorschap</h3>
-                            <p>Hij leert Atreus discipline, eer en overleving in een harde were</p>
-                            <h3>Veerkracht</h3>
-                            <p> Ondanks tragedies blijft Kratos standvastig en zoekt altijd naar verbetering</p>
-                        </div>
-                        <div class="img-symbols">
-                            <img src="image/Sticker Lion - Univers Signes du Zodiaque.png" alt="">
-                            <h1>Goddelijke Krachten</h1>
-                        </div>
-                        <div class="experience">
-                            <h3>Spartaanse Woede</h3>
-                            <p>Wanneer hij zijn woede loslaat, wordt hij een onstuitbare kracht die alles vernietigt.
-                            </p>
-                            <h3>Noorse Magie</h3>
-                            <p>Met de Leviathan Axe en Atreus’ hulp beheerst Kratos de kracht van de vorst en manipuleert hij de elementen.
-                                Persoonlijke Kwaliteiten
-                                </p>
-                        </div>
-                    </div>    
-            </div>
-            
-        </div>
-    </header>
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>
