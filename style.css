@@ -212,15 +212,33 @@ nav {
     .container-var {
       width: 90%;
     }
-    .topnav #myLinks {
-      display: inline-block;
-      float: right;
-    }
+  
 }
 
 @media (min-width: 768px) {
 
-     
+    .topnav {
+      width: 100%;
+      display: flex;
+      height: 50px;
+      justify-content: space-between;
+      position: fixed;
+      background-color: black;
+    }
+    
+    .topnav a {
+      display: inline-block;
+    }
+
+    .fa-bars {
+      display: none;
+    }
+
+    .topnav a.icon {
+      display: none;
+    }
+    
+         
     .container-var {
       width: 38%;
       flex-direction: row;
@@ -291,7 +309,7 @@ nav {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #68110F;
   top: 40px;
   bottom: 0;
   left: 50%;
@@ -313,8 +331,8 @@ nav {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  background-color: black;
+  border: 4px solid #AC8348;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -339,9 +357,9 @@ nav {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #C3C3C3;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #C3C3C3;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -353,9 +371,9 @@ nav {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #C3C3C3;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #C3C3C3 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -366,9 +384,15 @@ nav {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #C3C3C3;
   position: relative;
   border-radius: 6px;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .timeline-outwrapper {
@@ -380,6 +404,13 @@ nav {
   color: beige;
   text-align: center;
   margin: 0;
+}
+
+.timeline h2 {
+  color: #570402;
+}
+.timeline p {
+  color: black;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
